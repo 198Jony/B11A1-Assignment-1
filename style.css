@@ -1,0 +1,625 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: rgb(224, 224, 224);
+}
+
+/*Navbar Style*/
+
+header{
+    padding:24px 160px 24px 160px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navbar-title{
+    color:black;
+    font-family: Fira Sans;
+    font-size:32px;
+    font-weight: bold;
+}
+
+.navbar-btn{
+    padding: 15px 30px 15px 30px;
+    background-color: white;
+    border: 1px solid #006A50;
+    border-radius: 8px;
+    color:#006A50;
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight:600;
+}
+
+.navbar-btn:hover{
+    background-color:#006A50 ;
+    color: white;
+    border: 1px solid white;
+}
+
+/*Banner Style*/
+
+.banner-contain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 24px;
+    background: #C6E4D6;
+    height: 560px;
+    padding: 10px 55px 10px 55px;
+    
+ 
+}
+
+.banner-title{
+    color:#0e0e0e80;
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 0px; 
+}
+
+.banner-description{
+    color:black;
+    font-family: Fira Sans;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.banner-btn{
+    padding: 17px 34px 17px 34px;
+    background-color: #006A50;
+    color:white;
+    font-family: Fira Sans;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    margin-top: 24px; 
+}
+
+.banner-btn:hover{
+    background-color: white;
+    color:#006A50;
+    border: 1px solid green;
+}
+
+.banner-img{
+    width:350px;
+    height: 400px;  
+}
+
+/* Pillar Section Style*/
+
+main{
+    padding: 0px 160px 0px 160px;
+    margin-top: 80px;
+}
+
+.pillar-text{
+    color:black;
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: bold;
+}
+.pillar-content{
+    display: flex;
+    gap:24px;
+    margin-top: 32px;
+}
+
+.pillar{
+    padding: 24px;
+    border: 1px solid #0e0e0e26;
+    border-radius: 16px;
+    background: #ffffff;
+}
+
+.pillar-title{
+    color:black;
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.pillar-description{
+    color: #9e9898;
+    font-size: 15px;
+    font-family: Fira Sans;
+    font-weight: 400;
+}
+
+/* Future Section Style*/
+
+.future-contain{
+    margin-top: 80px;
+}
+.future-title{
+    color:black;
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.future-description{
+    color: #9e9898;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+}
+.future-card{
+    display: flex;
+    gap:15px;
+    margin-top: 32px;
+}
+
+.card-1,.card-2,.card-3{
+    padding: 25px;
+    border-radius: 16px;
+}
+
+.card-1{
+    background: #5490f533;
+}
+
+.card-2{
+    background: #c6e4d6;
+}
+
+.card-3{
+    background: #f7ebcf;
+}
+
+.card-img{
+    margin-bottom: 20px;
+}
+.card-title{
+    color:black;
+    font-family: Fira Sans;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.card-description{
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #9e9898;
+}
+
+.card-btn-1,.card-btn-2,.card-btn-3{
+    padding: 11px 20px 11px 20px;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-top: 24px;
+}
+
+.card-btn-1{
+    background-color: blue;
+}
+
+.card-btn-1:hover{
+    background-color:white;
+    color:blue;
+    border: 1px solid blue;
+}
+
+.card-btn-2{
+    background-color: green;
+}
+
+.card-btn-2:hover{
+    background-color:white;
+    color:green;
+    border: 1px solid green;
+}
+
+.card-btn-3{
+    background-color: yellow;
+}
+
+.card-btn-3:hover{
+    background-color:white;
+    color:#a8a84c;
+    border: 1px solid yellow;
+}
+
+.speech-contain{
+    margin-top: 80px;
+    padding: 48px 24px 48px 24px;
+    border: 1px solid #0e0e0e26;
+    border-radius: 16px;
+    background: white;
+    background-image: url('assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-position: 25px 20px;
+}
+.speech-description{
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #9e9898;
+    margin-top:0px;
+}
+
+.speech-name{
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 0px;
+}
+
+.speech-indentity{
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #9e9898;
+    margin-top: 10px;
+}
+
+/* Opinion Section Style*/
+
+.opinion-contain{
+   margin-top: 80px;
+}
+.opinion-title{
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+   
+}
+
+.opinion-content{
+    padding: 32px;
+    border-radius: 16px;
+    background: #ffffff;
+}
+.opinion-table{
+    width:100%;
+    border-collapse: collapse;
+    margin-top: 24px;
+   
+    
+    
+}
+
+.table-h{
+    border: 1px solid #0e0e0e26;
+    background: #c6e4d6;
+}
+
+.txt-left{
+    text-align: left;
+}
+
+.txt-center{
+    text-align: center;
+}
+
+tr,td,th{
+    padding: 24px;
+}
+
+tr,td{
+   
+    border: 1px solid #0e0e0e26;
+    background: #ffffff1a;
+    padding: 24px;
+}
+
+.th-title{
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+   
+}
+
+.td-btn{
+    padding: 10px 14px 10px 14px;
+    border: 1px solid #0e0e0e;
+    border-radius: 4px;
+    background: #09a15c26;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+}
+
+
+
+
+.td-txt{
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+
+.td-select{
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    background: none;
+}
+
+
+/* Recent News Section Style*/
+
+.news-contain{
+    margin-top: 80px;
+}
+.news-card-1,.news-card-2{
+    display: flex;
+    padding: 48px;
+    gap:32px;
+    margin-bottom: 24px;
+    border-radius: 24px;
+    background: #ffffff;
+}
+
+.news-title{
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+}
+
+.news-description{
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #9e9898;
+    margin-bottom: 32px;
+}
+
+.card-title{
+    font-family: Fira Sans;
+    font-size: 28px;
+    font-weight: 700;
+    color: black;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.card-description{
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #9e9898;
+}
+
+.card-img{
+    border-radius: 24px;
+  
+   
+}
+
+.alj-img{
+    margin-top: 12px;
+}
+
+.card-d-t{
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #9e9898;
+    margin-top: 12px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.news-card-btn{
+    padding: 13px 26px 13px 26px;
+    border-radius: 8px;
+    background-color:green;
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    color:white;
+    border: none;
+    margin-top: 10px;
+
+}
+
+.news-card-btn:hover{
+    color:green;
+    background-color: white;
+    border: 1px solid green;
+}
+
+/* Donate Section Style*/
+
+.donate-contain{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.donate-title{
+    color: #0e0e0e;
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.donate-description{
+    color: #0e0e0eb3;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+}
+.donate-cards{
+    display: flex;
+    gap:25px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.donate-card{
+    background-color: white;
+    padding: 0px 15px 0px 15px;
+    color:black;
+    font-size: 40px;
+    font-weight: 700;
+    border: 1px solid #0e0e0e26;
+    border-radius: 16px;
+    background: #ffffff
+}
+
+.donate-card:hover{
+    background-color: #c6e4d6;
+}
+
+.donate-card-title{
+    color: #0e0e0ecc;
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.donate-txt{
+    padding: 20px 40px 20px 40px;
+    border-bottom: 1px solid #0e0e0e26;
+    background: #ffffff;
+    width:600px;
+    margin: 32px auto 0;
+    color: #0e0e0e4d;
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.donate-btn{
+    padding: 17px 34px 17px 34px;
+    border: 1px solid #0e0e0e1a;
+    border-radius: 8px;
+    background: green;
+    color: #ffffff;
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 32px;
+}
+
+.donate-btn:hover{
+   
+    border: 1px solid green;
+    background:white;
+    color: green;
+    
+}
+
+/* Subscribe Section Style*/
+
+.subscribe-contain{
+    text-align: center;
+    padding: 80px 100px 80px 100px;
+    border-radius: 24px;
+    background: #c6e4d6;
+    margin-top: 80px;
+}
+
+.subscribe-title{
+    color:black;
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.subscribe-description{
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #9e9898;
+    margin-top: 16px;
+}
+
+.subscribe-container{
+    width:600px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin: 24px auto 0;
+}
+
+.subscribe-txt{
+    width:100%;
+    display: block;
+    border: none;
+    outline: none;
+    padding: 18px 40px 18px 40px;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.subscribe-btn{
+    border: none;
+    background-color: green;
+    color: #ffffff;
+    font-family: Fira Sans;
+    font-size: 15px;
+    font-weight: 600;
+    display: block;
+    padding: 10px 15px;
+    border-radius: 0px 8px 8px 0px;
+}
+
+.subscribe-btn:hover{
+    background-color: white;
+    color: green;
+    border: 1px solid green;
+}
+
+
+.subscribe-txt{
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #9e9898;
+    
+}
+
+/*Footer Section Style*/
+footer{
+    padding:24px 160px 24px 160px;
+    background: white;
+    margin-top: 80px;
+}
+
+.footer-contain{
+    text-align: center;
+    padding: 50px 160px;
+}
+
+.footer-title{
+    color: black;
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.footer-l{
+    border: 1px solid #0e0e0e1a;
+ 
+}
+.footer-icon{
+    display: flex;
+    gap:25px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
