@@ -556,13 +556,17 @@ tr,td{
     margin: 24px auto 0;
 }
 
-.subscribe-txt{
+.subscribe-input{
     width:100%;
     display: block;
     border: none;
     outline: none;
     padding: 18px 40px 18px 40px;
     border-radius: 8px 0px 0px 8px;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #9e9898;
 }
 
 .subscribe-btn{
@@ -584,7 +588,7 @@ tr,td{
 }
 
 
-.subscribe-txt{
+.subscribe-text{
     font-family: Fira Sans;
     font-size: 16px;
     font-weight: 400;
