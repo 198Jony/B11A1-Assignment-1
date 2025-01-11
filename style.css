@@ -108,12 +108,12 @@ main{
 }
 .pillar-content{
     display: flex;
-    gap:24px;
+    gap:10px;
     margin-top: 32px;
 }
 
-.pillar{
-    padding: 24px;
+.pillar-card{
+    padding: 15px;
     border: 1px solid #0e0e0e26;
     border-radius: 16px;
     background: #ffffff;
